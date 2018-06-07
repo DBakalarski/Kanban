@@ -85,10 +85,7 @@ var board = {
     element: document.querySelector('#board .column-container')
 };
 
-addColumn: function(column) {
-  this.element.appendChild(column.element);
-  initSortable(column.id); //About this feature we will tell later
-}
+
 
 /**************** SORTOWANIE *************/
 	function initSortable(id) {
