@@ -85,16 +85,22 @@ h1 {
 
 /* COLUMN */
 .column-container {
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-around;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   margin: 0 auto;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .column {
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-align: center;
+      align-items: center;
   min-width: 300px;
   min-height: 450px;
   margin: auto;
@@ -119,5 +125,4 @@ ul {
   box-shadow: 5px 10px 8px #888888;
   border-radius: 4%;
 }
-
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.prefixed.css.map */

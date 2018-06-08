@@ -121,6 +121,30 @@ var board = {
 		todoColumn.addCard(card1);
 		doingColumn.addCard(card2);
 
+
+/************** COLOR RANDOM ***************/
+
+
+/*
+var btnCard = document.getElementById('btn-card');
+
+
+btnCard.addEventListener('click', function(){
+
+var colorExample = ['#16a085', '#3498db', '#8e44ad'];
+
+	var choice = [Math.floor(Math.random() * colorExample.length)];
+	var colorRandom = colorExample[choice];
+	
+	console.log(colorRandom);
+
+	var changeColor = document.querySelectorAll('.card-description');
+	changeColor[changeColor.length - 1].style.background = colorRandom;
+
+});
+*/
+
+
 });
 
 
