@@ -104,7 +104,9 @@ h1 {
 	box-shadow: 5px 10px 8px #888888;
 	margin-top: 50px;
 }
-
+.column-card-list {
+    min-height: 110px;
+}
 ul {
 	list-style-type: none;
 	padding: 0;
