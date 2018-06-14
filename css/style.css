@@ -87,6 +87,12 @@ h1 {
   cursor: pointer;
 }
 
+.btn-delete-card:hover {
+  border: 2px solid #EA2027;
+  color: #EA2027;
+  transition: 0.3s;
+}
+
 /* COLUMN */
 .column-container {
   display: flex;

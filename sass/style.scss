@@ -82,6 +82,12 @@ h1 {
     color: #353b48;
     cursor: pointer;
 }
+.btn-delete-card:hover {
+    border: 2px solid $red-color;
+    color: $red-color;
+    transition: 0.3s;
+}
+
 /* COLUMN */
 .column-container {
 	display: flex;
