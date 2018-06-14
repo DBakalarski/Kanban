@@ -1,6 +1,6 @@
 // OGÓLNA FUNKCJA
 function randomString() {
-	var chars = '0123456789abcdefghiklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXTZ'.split();
+	var chars = '0123456789abcdefghiklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXTZ';
 	var str = '', i;
 	for (i = 0; i < 10; i++) {
 	  str += chars[Math.floor(Math.random() * chars.length)];

@@ -9,6 +9,7 @@ var board = {
 
 function initSortable(id) {
     var el = document.getElementById(id);
+    console.log(el);
     var sortable = Sortable.create(el, {
       group: 'kanban',
       sort: true
